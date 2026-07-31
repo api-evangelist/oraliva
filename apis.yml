@@ -1,7 +1,24 @@
 aid: oraliva
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oraliva.png
 name: Oraliva
-description: Oraliva is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: OraLiva, Inc. is a dental diagnostics company developing an AI-powered
+  oral cancer and dysplasia detection system for use during routine dental visits.
+  Its ONC In-Cyt platform pairs a minimally-invasive brush biopsy with deep-learning
+  cytology trained on more than 13 million cell images to score early malignancy risk.
+  The company emerged from NIH-funded research at NYU by Dr. John T. McDevitt and is
+  a portfolio company of DCVC. It is a medical-diagnostics (medtech/healthtech) company
+  with no public developer, API, or technical surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/oraliva/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Diagnostics
+- Oral Cancer
+- Cytology
+- Artificial Intelligence
+- Healthcare
+- Medical Devices
+- Dental
+common:
+- type: Website
+  url: https://oraliva.com/
+- type: Support
+  url: https://oraliva.com/contact/
+- type: Blog
+  url: https://oraliva.com/news/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/oralivainc
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
